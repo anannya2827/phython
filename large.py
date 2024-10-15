@@ -1,5 +1,5 @@
 '''
-Sequence statements in python
+Desicion making statements in python
 Author: Anannya Abhi
 Date:15.10.24
 '''
