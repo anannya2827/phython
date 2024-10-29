@@ -1,11 +1,11 @@
 '''
 Name:Anannya Abhi
 Date:29/10/2024
-Python program to print prime numbers till limit
+Python program to print multiplication of a number till 12
 '''
-limit=int(input("Enter a limit:"))
-print(f"Multiplication of {limit} till 12 is:")
+number=int(input("Enter a number:"))
+print(f"Multiplication of {number} till 12 is:")
 for i in range(13):
-  product=i*limit
-  print(f"\n {i}*{limit}\t=\t{product}")
+  product=i*number
+  print(f"\n {i}*{number}\t=\t{product}")
 
