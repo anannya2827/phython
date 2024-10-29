@@ -7,5 +7,5 @@ limit=int(input("Enter a limit:"))
 print(f"Multiplication of {limit} till 12 is:")
 for i in range(13):
   product=i*limit
-  print(f"\n {i}*{limit}={product}")
+  print(f"\n {i}*{limit}\t=\t{product}")
 
