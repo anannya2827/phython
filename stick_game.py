@@ -5,14 +5,11 @@ Python program for sticks game
 '''
 def num_check(choice,no_of_sticks):
     no_of_stick=no_of_sticks
-    player_try = 0
     if (choice==1)or(choice==3)or(choice==2) and (choice>=no_of_stick):
         no_of_stick=no_of_stick-choice
         return no_of_stick
     else:
         print("Invalid value for sticks")
-        player_try-=1
-        return player_try
 no_of_sticks =16
 player1_try,player2_try=0,0
 print("Welcome to game of Sticks!!")
@@ -35,6 +32,9 @@ while no_of_sticks>=0:
         no_of_sticks=num_check(choice,no_of_sticks)
         if no_of_sticks>0:
             print(f"Sticks remaining:{no_of_sticks}")
+        else:
+            print(f"{player1},pick the last stick and lose the game!")
+            break
         else:
             print(f"{player1},pick the last stick and lose the game!")
             break
